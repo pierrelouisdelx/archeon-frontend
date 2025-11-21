@@ -4,7 +4,7 @@ import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 
-export function Navigation() {
+export function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     const scrollToSection = (id: string) => {
